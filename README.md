@@ -1,2 +1,4 @@
 # Excercises
-Couple of Excercises Just to show my code.
+
+found some excercises : http://www.jkozak.pl/przedmioty/java/zadania1.pdf
+Solving them just to show my code.
