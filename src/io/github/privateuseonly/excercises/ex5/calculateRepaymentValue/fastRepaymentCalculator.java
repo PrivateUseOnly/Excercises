@@ -21,7 +21,5 @@ public class fastRepaymentCalculator {
         logic.calculateCompleteLoanValue();
         logic.divideCompleteLoanValue_By_NumberOfInstallments();
         logic.printResult();
-
-
     }
 }
