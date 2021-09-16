@@ -1,4 +1,4 @@
-package io.github.privateuseonly.excercises;
+package io.github.privateuseonly.excercises.convertCelsiustoFahrenheit;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
