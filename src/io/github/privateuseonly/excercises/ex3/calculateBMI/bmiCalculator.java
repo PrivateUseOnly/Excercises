@@ -1,4 +1,4 @@
-package io.github.privateuseonly.excercises.calculateBMI;
+package io.github.privateuseonly.excercises.ex3.calculateBMI;
 
 // -- Calculate BMI and show results: Norm = 18,5 - 24,9 -- \\
 // -- overweight > Norm,  underweight < Norm  -- \\

@@ -1,4 +1,4 @@
-package io.github.privateuseonly.excercises.calculateMinMaxValuesFrom3ThatUserGives;
+package io.github.privateuseonly.excercises.ex2.calculateMinMaxValuesFrom3ThatUserGives;
 
 import java.util.Arrays;
 import java.util.Scanner;
