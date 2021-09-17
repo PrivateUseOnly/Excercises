@@ -1,5 +1,6 @@
 package io.github.privateuseonly.excercises.ex6.simpleCalculator;
 
+import java.io.IOException;
 import java.util.Scanner;
 
 public class logic {
@@ -10,7 +11,7 @@ public class logic {
     private static int actionToInt;
     private static double result;
 
-    public static void startCounting() {
+    public static void startCounting() throws IOException {
         getInput1();
         getAction();
         getInput2();
@@ -18,16 +19,14 @@ public class logic {
         assignAction_ActionToInt();
         calculate();
         showResult();
-        //TODO
-        //waitForEnter();
+        waitForEnter();
 
     }
 
-//    private static void waitForEnter() {
-//        Scanner wait = new Scanner(System.in);
-//        System.out.println("Press enter key to continue...");
-//        wait.next();
-//        }
+    private static void waitForEnter() throws IOException {
+        System.out.println("Press enter key to continue...");
+        System.in.read();
+        }
 
 
     private static void showResult() {
@@ -61,10 +60,9 @@ public class logic {
         if (action.equals("/")) {
             actionToInt = 4;
         }
-        System.out.println(actionToInt);
     }
 
-    public static void evaluate() {
+    public static void evaluate() throws IOException {
         if (input2 == 0) {
             System.out.println("Don't divide by 0!");
             startCounting();

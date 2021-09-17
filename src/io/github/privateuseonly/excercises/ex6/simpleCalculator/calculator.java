@@ -15,9 +15,11 @@ package io.github.privateuseonly.excercises.ex6.simpleCalculator;
 // --   (f) Program ends his work, after the user push the Enter key. -- \\
 
 
+import java.io.IOException;
+
 public class calculator {
 
-    public static void main(String[] args){
+    public static void main(String[] args) throws IOException {
 
         printWelcomeMsg();
         logic.startCounting();
