@@ -33,21 +33,21 @@ public class Logic {
         }
     }
 
-    private static double calculate(double weight, double height) {
+    private static void calculate(double weight, double height) {
         double heightInMeters = height / 100;
         double powerOfHeight = Math.pow(heightInMeters, 2);
-        return result =((weight) / powerOfHeight);
+        result = ((weight) / powerOfHeight);
     }
 
-    private static double getUserHeight() {
+    private static void getUserHeight() {
         System.out.println("Type your height, in centimeters!: ");
         Scanner userHeightInput = new Scanner(System.in);
-        return height =userHeightInput.nextDouble();
+        height = userHeightInput.nextDouble();
     }
 
-    private static double getUserWeight() {
+    private static void getUserWeight() {
         System.out.println("Type your weight in kilograms: ");
         Scanner userMassInput = new Scanner(System.in);
-        return weight =userMassInput.nextDouble();
+        weight = userMassInput.nextDouble();
     }
 }
