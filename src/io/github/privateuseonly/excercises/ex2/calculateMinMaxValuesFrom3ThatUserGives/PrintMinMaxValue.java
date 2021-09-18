@@ -5,7 +5,7 @@ public class PrintMinMaxValue {
 // print only lowest and highest value integers
 
 
-    public static void main(String[] arg){
+    public static void main(String[] args){
 
         Calculations.showResult();
 

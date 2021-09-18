@@ -12,7 +12,7 @@ public class BmiCalculator {
     private static double height;
     private static double result;
 
-    public static void main(String[] arg) {
+    public static void main(String[] args) {
 
         getUserWeight();
         getUserHeight();

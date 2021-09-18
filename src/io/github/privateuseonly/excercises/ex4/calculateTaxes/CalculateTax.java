@@ -14,7 +14,7 @@ public class CalculateTax {
     private static final double border = 85_528;
     private static double income;
 
-    public static void main(String[] arg) {
+    public static void main(String[] args) {
 
         getUserIncome();
         calculate();
