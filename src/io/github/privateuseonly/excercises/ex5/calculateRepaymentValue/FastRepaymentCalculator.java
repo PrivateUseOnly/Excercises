@@ -1,6 +1,6 @@
 package io.github.privateuseonly.excercises.ex5.calculateRepaymentValue;
 
-public class fastRepaymentCalculator {
+public class FastRepaymentCalculator {
 // -- Exercise description:
 // -- get price (100 - 10_000),
 // -- get number of installments (6 - 48).
@@ -15,11 +15,11 @@ public class fastRepaymentCalculator {
         }
 
     public static void startCalculation() {
-        logic.getWantedLoanValue();
-        logic.getNumberOfInstallments();
-        logic.evaluation();
-        logic.calculateCompleteLoanValue();
-        logic.divideCompleteLoanValue_By_NumberOfInstallments();
-        logic.printResult();
+        Logic.getWantedLoanValue();
+        Logic.getNumberOfInstallments();
+        Logic.evaluation();
+        Logic.calculateCompleteLoanValue();
+        Logic.divideCompleteLoanValue_By_NumberOfInstallments();
+        Logic.printResult();
     }
 }

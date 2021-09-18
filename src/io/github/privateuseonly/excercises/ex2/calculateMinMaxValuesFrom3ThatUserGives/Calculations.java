@@ -3,7 +3,7 @@ package io.github.privateuseonly.excercises.ex2.calculateMinMaxValuesFrom3ThatUs
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class calculations {
+public class Calculations {
 
     private static int[] intArray;
     private static int lowestNumberInArray;

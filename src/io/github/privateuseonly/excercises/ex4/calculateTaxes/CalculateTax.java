@@ -7,7 +7,7 @@ package io.github.privateuseonly.excercises.ex4.calculateTaxes;
 
 import java.util.Scanner;
 
-public class calculateTax {
+public class CalculateTax {
 
     private static double lowTax;
     private static double highTax;

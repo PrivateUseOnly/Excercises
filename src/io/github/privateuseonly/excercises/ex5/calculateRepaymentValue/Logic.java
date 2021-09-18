@@ -2,7 +2,7 @@ package io.github.privateuseonly.excercises.ex5.calculateRepaymentValue;
 
 import java.util.Scanner;
 
-public class logic {
+public class Logic {
 
     private static double loan;
     private static double installmentsNumber;
@@ -32,9 +32,9 @@ public class logic {
        isLowOk =  (loan >= LOW_BORDER) && (installmentsNumber >= 6);
        isHighOk = (loan <= HIGH_BORDER) && (installmentsNumber <= 48);
 
-       if (isLowOk==false||isHighOk==false){
+       if (!isLowOk || !isHighOk){
            System.out.println("Inputs are false, please correct!");
-           fastRepaymentCalculator.startCalculation();
+           FastRepaymentCalculator.startCalculation();
        }
 
     }

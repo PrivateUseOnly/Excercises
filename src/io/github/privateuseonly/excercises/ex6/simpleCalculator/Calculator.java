@@ -17,12 +17,12 @@ package io.github.privateuseonly.excercises.ex6.simpleCalculator;
 
 import java.io.IOException;
 
-public class calculator {
+public class Calculator {
 
     public static void main(String[] args) throws IOException {
 
         printWelcomeMsg();
-        logic.startCounting();
+        Logic.startCounting();
     }
 
     private static void printWelcomeMsg() {

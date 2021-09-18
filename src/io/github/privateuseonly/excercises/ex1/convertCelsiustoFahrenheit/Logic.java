@@ -3,7 +3,7 @@ package io.github.privateuseonly.excercises.ex1.convertCelsiustoFahrenheit;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class logic {
+public class Logic {
     private static float celsiusInput;
     private static float fahrenheit;
 

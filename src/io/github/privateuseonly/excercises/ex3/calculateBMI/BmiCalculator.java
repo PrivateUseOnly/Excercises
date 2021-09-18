@@ -6,7 +6,7 @@ package io.github.privateuseonly.excercises.ex3.calculateBMI;
 
 import java.util.Scanner;
 
-public class bmiCalculator {
+public class BmiCalculator {
 
     private static double weight;
     private static double height;
@@ -27,7 +27,8 @@ public class bmiCalculator {
         if(lowerBorder<result &&result<highestBorder)
         {
             System.out.println("Your BMI is: " + result + " that's in Norm");
-        }if(lowerBorder >result)
+        }
+        if(lowerBorder >result)
         {
             System.out.println("Your BMI is: " + result + " that's in underweight");
         }
@@ -41,7 +42,6 @@ public class bmiCalculator {
         double heightInMeters = height / 100;
         double powerOfHeight = Math.pow(heightInMeters, heightInMeters);
         result = ((weight) / powerOfHeight);
-
     }
 
     private static void getUserHeight() {

@@ -3,7 +3,7 @@ package io.github.privateuseonly.excercises.ex6.simpleCalculator;
 import java.io.IOException;
 import java.util.Scanner;
 
-public class logic {
+public class Logic {
 
     private static double input1;
     private static String action;
