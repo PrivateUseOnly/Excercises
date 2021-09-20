@@ -1,4 +1,4 @@
-package io.github.privateuseonly.excercises.ex5.calculateRepaymentValue;
+package io.github.privateuseonly.excercises.easyExercises.ex5.calculateRepaymentValue;
 
 public class FastRepaymentCalculator {
 // -- Exercise description:

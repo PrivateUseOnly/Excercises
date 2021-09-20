@@ -1,4 +1,4 @@
-package io.github.privateuseonly.excercises.ex3.calculateBMI;
+package io.github.privateuseonly.excercises.easyExercises.ex3.calculateBMI;
 
 import java.util.Scanner;
 

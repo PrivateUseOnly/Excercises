@@ -1,4 +1,4 @@
-package io.github.privateuseonly.excercises.ex1.convertCelsiustoFahrenheit;
+package io.github.privateuseonly.excercises.easyExercises.ex1.convertCelsiustoFahrenheit;
 
 public class CentigradesToFahrenheit {
 

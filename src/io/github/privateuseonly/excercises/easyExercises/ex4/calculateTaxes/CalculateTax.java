@@ -1,4 +1,4 @@
-package io.github.privateuseonly.excercises.ex4.calculateTaxes;
+package io.github.privateuseonly.excercises.easyExercises.ex4.calculateTaxes;
 
 // --  Get users income and print result --\\
 // -- (income<= 85,528) TAX = 18% -- \\

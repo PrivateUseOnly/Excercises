@@ -1,4 +1,4 @@
-package io.github.privateuseonly.excercises.ex6.simpleCalculator;
+package io.github.privateuseonly.excercises.easyExercises.ex6.simpleCalculator;
 
 import java.io.IOException;
 import java.util.Scanner;
