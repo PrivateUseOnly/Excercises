@@ -19,7 +19,7 @@ public class Logic {
     private static void showResult() {
         double lowerBorder = 18.5;
         double highestBorder = 24.9;
-        if(lowerBorder<result &&result<highestBorder)
+        if(lowerBorder<result && result<highestBorder)
         {
             System.out.println("Your BMI is: " + result + " that's in Norm");
         }
